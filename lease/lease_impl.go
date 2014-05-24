@@ -29,7 +29,7 @@ type leaseNode struct {
 }
 
 const (
-	PERIOD_LEN = 1000 // number of milliseconds in a period
+	PERIOD_LEN  = 1000 // number of milliseconds in a period
 	LEASE_LEN   = 5    // number of periods in a lease length
 	REFRESH_LEN = 2    // number of remaining master periods when trying to renew
 )
